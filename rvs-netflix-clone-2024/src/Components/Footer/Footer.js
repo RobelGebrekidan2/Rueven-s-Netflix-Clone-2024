@@ -30,21 +30,23 @@ export default function Footer() {
           </div>
           <div>
             <ul>
+              <li>Gift Cards</li>
+              <li>Terms of Use</li>
+              <li>Corporate Information</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
               <li>Media Center</li>
               <li>Privacy</li>
               <li>Contact Us</li>
             </ul>
           </div>
         </div>
-     <div className="service_code">
-        <p>
-            Service code
-        </p>
-
-     </div>
-     <div className='copy-write'>
-           &copy; 1997-2024 Netflix, Inc.
-     </div>
+        <div className="service_code">
+          <p>ServiceCode</p>
+        </div>
+        <div className="copy-write">&copy; 1997-2024 Netflix, Inc.</div>
       </div>
     </div>
   );
